@@ -14,6 +14,14 @@ class CourseDataSource {
     }
   }
 
+  Future addAllCourse(List<Course> lstcourse) async {
+    try {
+      return objectBoxInstance.addAllCourse(lstcourse);
+    } catch (e) {
+      return false;
+    }
+  }
+
   Future<List<Course>> getAllCourse() async {
     try {
       return objectBoxInstance.getAllCourse();

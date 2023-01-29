@@ -3,7 +3,6 @@ import 'package:batch_student_objbox_api/app/user_permission.dart';
 import 'package:batch_student_objbox_api/screen/bottom_screen/search_student.dart';
 import 'package:flutter/material.dart';
 import 'package:batch_student_objbox_api/screen/bottom_screen/about.dart';
-
 import '../app/theme.dart';
 import 'bottom_screen/home.dart';
 

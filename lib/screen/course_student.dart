@@ -23,8 +23,8 @@ class _CourseStudentScreenState extends State<CourseStudentScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
+    return Scaffold (
+       appBar: AppBar(
         title: Text('Students in ${course.courseName}'),
       ),
       body: FutureBuilder(
@@ -44,6 +44,7 @@ class _CourseStudentScreenState extends State<CourseStudentScreen> {
         },
       ),
     );
+     
   }
 }
 

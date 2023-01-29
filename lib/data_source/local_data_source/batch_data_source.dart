@@ -18,6 +18,14 @@ class BatchDataSource {
     }
   }
 
+  Future addAllBatch(List<Batch>lstbatch) async {
+    try {
+      return objectBoxInstance.addAllBatch(lstbatch);
+    } catch (e) {
+      return false;
+    }
+  }
+
   Future<List<Batch>> getAllBatch() async {
     try {
       return Future.value(objectBoxInstance.getAllBatch());
